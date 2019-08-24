@@ -102,7 +102,7 @@
                 date = "0" + date;
             }
 
-            var order_idxx = "TEST" + year + "" + month + "" + date + "" + time;
+            var order_idxx = year + "" + month + "" + date + "" + time;
 
             document.order_info.ordr_idxx.value = order_idxx;            
         }
